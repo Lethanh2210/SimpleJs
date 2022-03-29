@@ -6,17 +6,17 @@
 </head>
 <body>
 <script>
-    let a = prompt("UserName: ");
+    let a = prompt("UserName: ",'');
     if(a == "Admin"){
-        let b = prompt("PassWord: ");
+        let b = prompt("PassWord: ",'');
         if(b == "TheMaster"){
             alert("Welcome");
-        }else if(b == 'null'){
+        }else if(b == null){
             alert("Canceled");
         }else {
             alert("Wrong password");
         }
-    }else if(a == 'null'){
+    }else if(a == null){
         alert("canceld");
     }else alert("I don't know you");
 </script>
